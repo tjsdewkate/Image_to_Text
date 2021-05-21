@@ -4,7 +4,7 @@ import numpy as np
 from flask import Flask, request, render_template
 
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\Tejas\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'tesseract.exe'
 
 img_path = "img.jpg"
 
