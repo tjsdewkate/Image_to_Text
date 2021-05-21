@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Text Extractor </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <center>
+            <div style="color: #9900e6" >
+                <br> <br> <br>
+                <h1>WELCOME<br> Get text from Image</h1>
+
+        <form method="POST" action="{{url_for('predictRoute')}}" enctype="multipart/form-data">
+            <input type="file" name='image' class='btn'> <br><br><br>
+            <img src="image"  width="200" height="200"> <br><br>
+            <input type="submit" class='btn'>
+        </form>
+
+            <br> <h2> {{text}}<h2>
+            </div>
+    </center>
+        <style >
+            body {
+            background-color: #9fff80 ;
+            text-align: center; }
+
+        </style>
+    </body>
+
+</html>
